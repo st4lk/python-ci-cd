@@ -24,4 +24,4 @@ jobs:
 workflows:
   deploy_and_notify:
     jobs:
-      run_tests
+      - run_tests
